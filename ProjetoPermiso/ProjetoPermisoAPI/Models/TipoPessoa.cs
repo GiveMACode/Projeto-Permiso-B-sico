@@ -1,5 +1,4 @@
-﻿namespace ProjetoPermisoAPI;
-
+﻿namespace ProjetoPermisoAPI.Models;
 public class TipoPessoa
 {
 

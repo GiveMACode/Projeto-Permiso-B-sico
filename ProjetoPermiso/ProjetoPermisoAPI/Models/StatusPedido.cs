@@ -1,5 +1,4 @@
-﻿namespace ProjetoPermisoAPI;
-
+﻿namespace ProjetoPermisoAPI.Models;
 public class StatusPedido
 {
     public int StatusPedidoId { get; set; }

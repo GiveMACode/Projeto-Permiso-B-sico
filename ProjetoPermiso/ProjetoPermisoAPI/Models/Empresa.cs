@@ -1,4 +1,4 @@
-﻿namespace ProjetoPermisoAPI;
+﻿namespace ProjetoPermisoAPI.Models;
 
 public class Empresa
 {
@@ -15,4 +15,7 @@ public class Empresa
     public int TipoPessoaId { get; set; }
     public string Email { get; set; }
     public string Observacao { get; set; }
+    public Endereco Endereco { get; set; }
+    public int EnderecoId { get; set; }
+
 }

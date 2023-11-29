@@ -1,5 +1,4 @@
-﻿namespace ProjetoPermisoAPI;
-
+﻿namespace ProjetoPermisoAPI.Models;
 public class Representante
 {
      public Representante() =>
@@ -10,5 +9,5 @@ public class Representante
     public DateTime DataNascimentoRepresentante { get; set; }
     public float Telefone { get; set; }
     public DateTime CriadoEm { get; set; }
-
+    public string? Observacao { get; set; }
 }
